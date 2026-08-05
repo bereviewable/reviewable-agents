@@ -57,15 +57,22 @@ The last file is a product illustration for the screenshot slot. It deliberately
 
 ## Human portal checklist
 
-Open the [plugin submission portal](https://platform.openai.com/plugins) and create a **With MCP** submission: this bundle combines an MCP server with a skill. The official submission guide requires the following items, which cannot be completed by this repository alone.
+Choose the submission type before opening a draft. The current plugin bundle contains a local stdio MCP command (`npx`); it does not contain a remotely accessible MCP server URL.
+
+### Route A ? Skills only
+
+Choose **Skills only** if the public listing is meant to publish the reusable `make-it-reviewable` workflow itself. Upload the final skill bundle from `reviewable-agent-plugin/skills/make-it-reviewable/`. Before submitting, verify in the portal that this route presents the expected installation behavior for a skill that depends on the existing local Reviewable MCP; the official guide does not state that an uploaded skills-only bundle also installs this repository's `.mcp.json` configuration.
+
+### Route B ? With MCP
+
+Choose **With MCP** only after a separately built and deployed remote MCP server is available at a public production URL. The portal scans that server, so the local `npx` command cannot be used as its URL. This route additionally requires domain verification, accurate tool annotations, authentication details, and reviewer-ready demo access when authentication is required.
+
+### Common portal work
 
 1. Use an OpenAI Platform organization where the submitter has **Apps Management: Write** (organization owners already have it).
 2. In that same organization, verify the publisher identity. Choose **business verification** for Reviewable as the public publisher, or individual verification only if publishing under an individual's own name. The selected identity must match the public name, website, support contact, privacy policy, and terms.
 3. Paste the listing copy above, upload the included logo, select **Productivity**, and provide a public support URL that matches the verified Reviewable publisher. This repository does not invent a support URL.
-4. Supply the production public MCP server URL, its authentication details, and reviewer-ready demo access if authentication is required. The portal requires the server itself to be submitted and scanned; the local `npx` command in this bundle is not a public MCP server URL.
-5. Complete the portal's domain-verification challenge if shown by serving its exact token at `/.well-known/openai-apps-challenge` on the MCP host or an allowed parent origin.
-6. Scan tools and verify every discovered tool's name, description, schema, output, and `readOnlyHint`, `openWorldHint`, and `destructiveHint` against actual behavior. Do not submit secrets, internal IDs, debug output, or undisclosed personal data.
-7. Add at least five positive and three negative test cases, choose only countries or regions where the product, support process, and legal terms are ready, write release notes, complete the policy attestations, and submit for review.
+4. Add at least five positive and three negative test cases, choose only countries or regions where the product, support process, and legal terms are ready, write release notes, complete the policy attestations, and submit for review.
 
 The authoritative process and checklist are [Submit plugins](https://developers.openai.com/plugins/deploy/submission): see [access and identity](https://developers.openai.com/plugins/deploy/submission#before-you-submit), [required materials](https://developers.openai.com/plugins/deploy/submission#prepare-required-materials), [MCP setup and domain verification](https://developers.openai.com/plugins/deploy/submission#MCP), and [test cases and final checklist](https://developers.openai.com/plugins/deploy/submission#testing).
 

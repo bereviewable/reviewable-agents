@@ -2,6 +2,16 @@
 
 Use this material when a human submits the Reviewable plugin to OpenAI's public Plugins Directory. This work prepares discovery only; the repository marketplace distribution and plugin version stay unchanged.
 
+## Current decision ? 2026-08-05
+
+Defer the public Plugins Directory submission. The existing repository marketplace already installs the local Reviewable MCP and `make-it-reviewable` skill together, so the product does not need the directory to work.
+
+Do not build a remote MCP server solely for directory discovery. Resume this submission only after either:
+
+1. A human has verified in a portal draft that a **Skills only** submission preserves the desired local-MCP installation experience; or
+2. Reviewable intentionally prioritizes directory discovery enough to approve the separate scope of building and operating a public remote MCP server.
+
+
 ## Listing copy
 
 | Field | Value |

@@ -1,0 +1,20 @@
+{
+  "name": "reviewable",
+  "interface": {
+    "displayName": "Reviewable"
+  },
+  "plugins": [
+    {
+      "name": "reviewable-agent-plugin",
+      "source": {
+        "source": "local",
+        "path": "./reviewable-agent-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

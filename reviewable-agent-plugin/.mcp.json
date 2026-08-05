@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "reviewable": {
+      "command": "npx",
+      "args": ["-y", "reviewable-artifacts-mcp"]
+    }
+  }
+}

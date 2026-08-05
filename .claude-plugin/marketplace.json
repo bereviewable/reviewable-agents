@@ -1,0 +1,15 @@
+{
+  "name": "reviewable",
+  "owner": { "name": "Reviewable" },
+  "metadata": { "description": "Reviewable agent integrations", "version": "0.3.0" },
+  "plugins": [
+    {
+      "name": "reviewable-agent-plugin",
+      "description": "Publish self-contained HTML artifacts to Reviewable for human review.",
+      "author": { "name": "Reviewable" },
+      "homepage": "https://bereviewable.com/agents",
+      "tags": ["reviewable", "mcp", "artifact-review"],
+      "source": "./reviewable-agent-plugin"
+    }
+  ]
+}

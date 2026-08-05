@@ -2,15 +2,15 @@
 
 This static bundle installs the existing Reviewable stdio MCP and the explicit `make-it-reviewable` skill together. It adds no service, credentials, or automatic publishing.
 
-The bundle is distributed from Reviewable's public plugin channel. Setup instructions for every harness live at [bereviewable.com/agents](https://bereviewable.com/agents).
+The bundle is distributed from [bereviewable/reviewable-agents](https://github.com/bereviewable/reviewable-agents). Setup instructions for every harness live at [bereviewable.com/agents](https://bereviewable.com/agents).
 
 ## Codex
 
-Add the Reviewable plugin from the Reviewable channel, then reload plugins. The bundle registers `npx -y reviewable-artifacts-mcp` and exposes `make-it-reviewable`.
+Run `codex plugin marketplace add bereviewable/reviewable-agents`, then `codex plugin add reviewable-agent-plugin@reviewable` and reload plugins. The bundle registers `npx -y reviewable-artifacts-mcp` and exposes `make-it-reviewable`.
 
 ## Claude Code
 
-Install the Reviewable plugin from the Reviewable channel, then run `/reload-plugins`. Claude discovers `.mcp.json` and `skills/make-it-reviewable/` from the plugin bundle.
+Run `claude plugin marketplace add bereviewable/reviewable-agents`, then `claude plugin install reviewable-agent-plugin@reviewable` and `/reload-plugins`. Claude discovers `.mcp.json` and `skills/make-it-reviewable/` from the plugin bundle.
 
 ## Compatible MCP hosts
 

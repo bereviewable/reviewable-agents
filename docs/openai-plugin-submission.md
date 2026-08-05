@@ -59,11 +59,11 @@ The last file is a product illustration for the screenshot slot. It deliberately
 
 Choose the submission type before opening a draft. The current plugin bundle contains a local stdio MCP command (`npx`); it does not contain a remotely accessible MCP server URL.
 
-### Route A ? Skills only
+### Route A: Skills only
 
 Choose **Skills only** if the public listing is meant to publish the reusable `make-it-reviewable` workflow itself. Upload the final skill bundle from `reviewable-agent-plugin/skills/make-it-reviewable/`. Before submitting, verify in the portal that this route presents the expected installation behavior for a skill that depends on the existing local Reviewable MCP; the official guide does not state that an uploaded skills-only bundle also installs this repository's `.mcp.json` configuration.
 
-### Route B ? With MCP
+### Route B: With MCP
 
 Choose **With MCP** only after a separately built and deployed remote MCP server is available at a public production URL. The portal scans that server, so the local `npx` command cannot be used as its URL. This route additionally requires domain verification, accurate tool annotations, authentication details, and reviewer-ready demo access when authentication is required.
 

@@ -1,6 +1,6 @@
 {
   "name": "reviewable-agent-plugin",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Publish a self-contained HTML artifact to Reviewable for human review.",
   "author": { "name": "Reviewable", "url": "https://bereviewable.com" },
   "homepage": "https://bereviewable.com/agents",

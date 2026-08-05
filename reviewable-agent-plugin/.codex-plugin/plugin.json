@@ -4,6 +4,7 @@
   "description": "Publish a self-contained HTML artifact to Reviewable for human review.",
   "author": { "name": "Reviewable", "url": "https://bereviewable.com" },
   "homepage": "https://bereviewable.com/agents",
+  "repository": "https://github.com/bereviewable/reviewable-agents",
   "license": "MIT",
   "keywords": ["reviewable", "mcp", "artifact-review"],
   "skills": "./skills/",
@@ -14,10 +15,17 @@
     "longDescription": "Adds the explicit make-it-reviewable action and the Reviewable MCP.",
     "developerName": "Reviewable",
     "category": "Productivity",
-    "capabilities": ["Interactive", "Write"],
+    "capabilities": ["Read", "Write"],
     "websiteURL": "https://bereviewable.com",
     "privacyPolicyURL": "https://bereviewable.com/privacy",
     "termsOfServiceURL": "https://bereviewable.com/terms",
-    "defaultPrompt": ["Make my latest HTML artifact reviewable."]
+    "defaultPrompt": [
+      "Make the HTML artifact I selected reviewable.",
+      "Publish this self-contained HTML artifact to Reviewable for human review."
+    ],
+    "brandColor": "#184A45",
+    "composerIcon": "./assets/composer-icon.svg",
+    "logo": "./assets/logo.svg",
+    "screenshots": ["./assets/reviewable-artifact.svg"]
   }
 }

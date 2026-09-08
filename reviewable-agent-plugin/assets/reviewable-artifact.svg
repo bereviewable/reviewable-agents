@@ -1,23 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
   <title id="title">Reviewable artifact review</title>
   <desc id="desc">An original illustration of a self-contained HTML artifact prepared for human review.</desc>
-  <rect width="1280" height="720" fill="#F8F5EE"/>
-  <rect x="72" y="64" width="1136" height="592" rx="32" fill="#FFFFFF" stroke="#D8E2DA" stroke-width="4"/>
-  <rect x="72" y="64" width="1136" height="108" rx="32" fill="#184A45"/>
-  <rect x="72" y="140" width="1136" height="32" fill="#184A45"/>
-  <circle cx="132" cy="118" r="24" fill="#D5E7DA"/>
-  <path d="m120 118 8 8 18-20" fill="none" stroke="#184A45" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
-  <text x="184" y="132" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Reviewable</text>
-  <text x="140" y="246" fill="#184A45" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700">Artifact ready for human review</text>
-  <text x="140" y="294" fill="#58706B" font-family="Arial, Helvetica, sans-serif" font-size="24">A self-contained HTML artifact, shared only when requested.</text>
-  <rect x="140" y="342" width="616" height="214" rx="20" fill="#EFF5F0"/>
-  <rect x="180" y="388" width="286" height="20" rx="10" fill="#184A45" opacity=".92"/>
-  <rect x="180" y="434" width="498" height="16" rx="8" fill="#A4BBB0"/>
-  <rect x="180" y="472" width="408" height="16" rx="8" fill="#C2D2C9"/>
-  <rect x="180" y="510" width="456" height="16" rx="8" fill="#C2D2C9"/>
-  <rect x="824" y="342" width="242" height="214" rx="20" fill="#184A45"/>
-  <circle cx="945" cy="419" r="43" fill="#D5E7DA"/>
-  <path d="m924 420 16 16 31-34" fill="none" stroke="#184A45" stroke-linecap="round" stroke-linejoin="round" stroke-width="11"/>
-  <text x="875" y="496" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">Ready to review</text>
-  <text x="140" y="614" fill="#58706B" font-family="Arial, Helvetica, sans-serif" font-size="20">Explicit publish ? Private review workflow</text>
+  <rect width="1280" height="720" fill="#f6f1ea"/>
+  <rect x="72" y="64" width="1136" height="592" rx="32" fill="#fffdfa" stroke="#d8cdc0" stroke-width="4"/>
+  <rect x="72" y="64" width="1136" height="108" rx="32" fill="#a54b32"/>
+  <rect x="72" y="140" width="1136" height="32" fill="#a54b32"/>
+  <circle cx="132" cy="118" r="24" fill="#f0d8cc"/>
+  <path d="m120 118 8 8 18-20" fill="none" stroke="#79321f" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+  <text x="184" y="132" fill="#FFFFFF" font-family="Georgia, 'Iowan Old Style', 'Palatino Linotype', Palatino, serif" font-size="34" font-weight="700">Reviewable</text>
+  <text x="140" y="246" fill="#a54b32" font-family="'Segoe UI', system-ui, sans-serif" font-size="48" font-weight="700">Artifact ready for human review</text>
+  <text x="140" y="294" fill="#67635e" font-family="'Segoe UI', system-ui, sans-serif" font-size="24">A self-contained HTML artifact, shared only when requested.</text>
+  <rect x="140" y="342" width="616" height="214" rx="20" fill="#eee4d8"/>
+  <rect x="180" y="388" width="286" height="20" rx="10" fill="#a54b32" opacity=".92"/>
+  <rect x="180" y="434" width="498" height="16" rx="8" fill="#c4b6a6"/>
+  <rect x="180" y="472" width="408" height="16" rx="8" fill="#d8cdc0"/>
+  <rect x="180" y="510" width="456" height="16" rx="8" fill="#d8cdc0"/>
+  <rect x="824" y="342" width="242" height="214" rx="20" fill="#a54b32"/>
+  <circle cx="945" cy="419" r="43" fill="#f0d8cc"/>
+  <path d="m924 420 16 16 31-34" fill="none" stroke="#79321f" stroke-linecap="round" stroke-linejoin="round" stroke-width="11"/>
+  <text x="875" y="496" fill="#FFFFFF" font-family="'Segoe UI', system-ui, sans-serif" font-size="24" font-weight="700">Ready to review</text>
+  <text x="140" y="614" fill="#67635e" font-family="'Segoe UI', system-ui, sans-serif" font-size="20">Explicit publish - Private review workflow</text>
 </svg>

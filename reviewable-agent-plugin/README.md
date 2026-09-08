@@ -2,7 +2,7 @@
 
 This static bundle installs the existing Reviewable stdio MCP and the explicit `make-it-reviewable` skill together. It adds no service, credentials, or automatic publishing.
 
-The bundle is distributed from [bereviewable/reviewable-agents](https://github.com/bereviewable/reviewable-agents). Setup instructions for every harness live at [bereviewable.com/agents](https://bereviewable.com/agents).
+The bundle is distributed from [bereviewable/reviewable-agents](https://github.com/bereviewable/reviewable-agents). Setup instructions for every harness live at [bereviewable.com/agents](https://bereviewable.com/agents); an agent that starts from a shared URL can follow the [canonical onboarding guide](https://bereviewable.com/docs/protocol/agent-onboarding.md).
 
 ## Codex
 

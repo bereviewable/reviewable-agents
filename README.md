@@ -40,11 +40,11 @@ It registers a local MCP server and one skill. It adds no service, stores no cre
 
 The first time your agent needs to create a review, it opens Reviewable browser authorization and you approve a scoped, revocable grant. You never paste a workspace key into chat or configuration. You receive a private owner URL; sharing stays your explicit decision inside Reviewable.
 
-Full setup instructions: [bereviewable.com/agents](https://bereviewable.com/agents).
+Full setup instructions: [bereviewable.com/agents](https://bereviewable.com/agents). An agent that receives only a Reviewable URL can follow the [canonical onboarding guide](https://bereviewable.com/docs/protocol/agent-onboarding.md).
 
 ## Versioning
 
-The plugin version tracks the published `reviewable-artifacts-mcp` npm release. Releases are tagged.
+The plugin version tracks the published `reviewable-artifacts-mcp` npm release. Releases are tagged as `v<version>`.
 
 ## License
 

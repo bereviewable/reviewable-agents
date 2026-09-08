@@ -19,9 +19,10 @@ Accept only a readable `.html` or `.htm` file. Structured Slides are valid only 
 
 Confirm that the HTML is self-contained:
 
-- Keep render assets inline, as data URLs, or fragment references.
-- Allow normal outbound links, but reject external stylesheets, scripts, iframes, embeds, images, fonts, CSS `@import`, and render-time `url(...)` fetches.
-- Do not rely on active script for the main content. Keep the document readable with scripts disabled.
+- Keep fetched render assets inline, as data URLs, or fragment references.
+- Allow an `<img src>` that points to an unavailable local or remote image. Reviewable replaces it with an inert missing-image placeholder and does not fetch it. Reject `srcset`.
+- Allow inline startup scripts in ordinary HTML. Reject external script sources, external stylesheets, iframes, embeds, fonts, CSS `@import`, and render-time `url(...)` fetches.
+- For Structured Slides, allow only the supported JSON envelope script. Reject active scripts.
 - Preserve `data-review-id` anchors when the artifact uses Reviewable review anchors.
 
 If any check fails, tell the user what must change and stop. Do not call `create_review`.

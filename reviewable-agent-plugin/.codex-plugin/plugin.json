@@ -1,6 +1,6 @@
 {
   "name": "reviewable-agent-plugin",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "Publish a self-contained HTML artifact to Reviewable for human review.",
   "author": { "name": "Reviewable", "url": "https://bereviewable.com" },
   "homepage": "https://bereviewable.com/agents",
@@ -23,7 +23,7 @@
       "Make the HTML artifact I selected reviewable.",
       "Publish this self-contained HTML artifact to Reviewable for human review."
     ],
-    "brandColor": "#184A45",
+    "brandColor": "#a54b32",
     "composerIcon": "./assets/composer-icon.svg",
     "logo": "./assets/logo.svg",
     "screenshots": ["./assets/reviewable-artifact.svg"]

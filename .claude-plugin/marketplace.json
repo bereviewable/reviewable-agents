@@ -1,7 +1,7 @@
 {
   "name": "reviewable",
   "owner": { "name": "Reviewable" },
-  "metadata": { "description": "Reviewable agent integrations", "version": "0.3.1" },
+  "metadata": { "description": "Reviewable agent integrations", "version": "0.4.0" },
   "plugins": [
     {
       "name": "reviewable-agent-plugin",

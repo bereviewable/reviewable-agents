@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
   <title id="title">Reviewable composer icon</title>
-  <desc id="desc">A dark green circle with a white review mark.</desc>
-  <circle cx="128" cy="128" r="112" fill="#184A45"/>
-  <path d="M74 130.5 108 165l76-82" fill="none" stroke="#F8F5EE" stroke-linecap="round" stroke-linejoin="round" stroke-width="22"/>
-  <circle cx="180" cy="76" r="16" fill="#D5E7DA"/>
+  <desc id="desc">A deep oxide red circle with a white review mark.</desc>
+  <circle cx="128" cy="128" r="112" fill="#a54b32"/>
+  <path d="M74 130.5 108 165l76-82" fill="none" stroke="#f6f1ea" stroke-linecap="round" stroke-linejoin="round" stroke-width="22"/>
+  <circle cx="180" cy="76" r="16" fill="#f0d8cc"/>
 </svg>

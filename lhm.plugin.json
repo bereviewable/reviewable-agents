@@ -1,0 +1,7 @@
+{
+  "category": "productivity",
+  "description": "Publish self-contained HTML artifacts from your AI agent and collect inline human review comments.",
+  "identifier": "reviewable",
+  "name": "Reviewable",
+  "version": "0.4.3"
+}

@@ -1,5 +1,7 @@
 # Reviewable agents
 
+[![Listed on mcpservers.org](https://mcpservers.org/badge.svg)](https://mcpservers.org/servers/bereviewable/reviewable-agents)
+
 Public distribution for the Reviewable agent plugin: the explicit `make-it-reviewable` action and the Reviewable stdio MCP, installed together.
 
 This repository contains only the plugin bundle and its marketplace manifests. Reviewable's application source is not here.

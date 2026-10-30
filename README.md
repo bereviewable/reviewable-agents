@@ -2,6 +2,8 @@
 
 [![Listed on mcpservers.org](https://mcpservers.org/badge.svg)](https://mcpservers.org/servers/bereviewable/reviewable-agents)
 
+Listing status: mcpservers.org is active. Glama is paused pending a decision on whether Reviewable will operate a remote MCP; `glama.json` only prepares ownership verification. LobeHub is pending.
+
 Public distribution for the Reviewable agent plugin: the explicit `make-it-reviewable` action and the Reviewable stdio MCP, installed together.
 
 This repository contains only the plugin bundle and its marketplace manifests. Reviewable's application source is not here.
